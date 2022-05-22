@@ -2,6 +2,7 @@ import sys
 import logging
 import inspect
 #   %(name)s becomes logger name, which is the class of the caller.
+#LOGGING_FORMAT = logging.BASIC_FORMAT
 LOGGING_FORMAT = "%(levelname)-8s %(name)s.%(funcName)s: %(message)s"
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG, format=LOGGING_FORMAT)
 #logging.basicConfig(level=logging.DEBUG)
@@ -42,4 +43,5 @@ if __name__ == '__main__':
     w = Widget()
     make_calls_Widget(w)
     schenanigans()
+    log().error("abc")
 
