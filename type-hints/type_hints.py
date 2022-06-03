@@ -12,7 +12,7 @@ import typing
 
 #   mypy is a tool for <checking/enforcing> type hints:
 #   install:    pip3 install mypy
-#   usage:      python3 -m mpypy <script>
+#   usage:      python3 -m mypy <script>
 
 
 #   Syntax (function):
