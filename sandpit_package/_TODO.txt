@@ -1,0 +1,2 @@
+#	TODO: 2022-06-24T00:06:58AEST python-examples/sandpit_package, _naming, <how/where> to <search/list> names to to use (already taken) for a package (presumedly, those build-in and installable through pip?)
+

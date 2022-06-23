@@ -1,0 +1,15 @@
+
+Importing within a project:
+Absolute imports: (begins at package top-level)
+		from omission.common.game_enums import GameMode
+
+Relative imports: ('.' = this package, '..' = parent package)
+		from ..common.game_enums import GameMode
+
+
+Absolute vs Relative imports:
+	
+
+
+As a rule, never ever ever ever EVER manipulate sys.path to solve Python import issues.
+

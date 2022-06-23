@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/193161/what-is-the-best-project-structure-for-a-python-application
+https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6
+https://realpython.com/absolute-vs-relative-python-imports/
+https://stackoverflow.com/questions/4042905/what-is-main-py
+
