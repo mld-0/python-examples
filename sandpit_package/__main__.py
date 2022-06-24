@@ -7,6 +7,13 @@
 #   Ongoing: 2022-06-24T00:09:24AEST should package be runnable without 'installing' (either adding to python-path, or using 'pip install') anyway? (recall: don't try and <trick/hack> 'import')
 #   Ongoing: 2022-06-24T00:11:32AEST does lack of '__main__.py' denote a python package 'not executable' (can we not set a run-package command in some config file?)
 #   }}}
+from mathers.adder import Adder
+from mathers.multiplier import Multiplier
+
+from animals.animal import Animal
+from animals.cat import Cat
+from animals.bird import Bird
+from animals.dog import Dog
 
 #   File executed when we run our package directly:
 #       python3 -m sandpit_package
@@ -14,7 +21,27 @@
 #   Allows package to also be 'run' with:
 #       sandpit_package.main()
 def main():
-    #   run package
+
+    birb = Bird("Wal")
+    birb.speak()
+    birb.walk()
+
+    cat = Cat("Larry")
+    cat.speak()
+    cat.walk()
+
+    dog = Dog("Patch")
+    dog.speak()
+    dog.walk()
+    print()
+
+    a = Adder(3,4)
+    a.print()
+
+    b = Multiplier(56,9)
+    b.print()
+    print()
+
     return 0
 
 
