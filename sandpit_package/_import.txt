@@ -8,8 +8,18 @@ Relative imports: ('.' = this package, '..' = parent package)
 
 
 Absolute vs Relative imports:
-	
+	<>
 
+
+Distribution package: 
+Import package: things that can be 'import'-ed
 
 As a rule, never ever ever ever EVER manipulate sys.path to solve Python import issues.
+<(Should a package be runnable/testable without installing it? (Does python search PWD for <packages/modules>?))>
+<('nose' is a tool for running tests without installing package / modifying PYTHONPATH (or use virtualenv))>
+
+
+Importing from tests:
+LINK: https://stackoverflow.com/questions/25827160/importing-correctly-with-pytest
+If you include an __init__.py file inside your tests directory, then when the program is looking to set a home directory it will walk 'upwards' until it finds one that does not contain an init file
 

@@ -1,0 +1,37 @@
+LINK: https://packaging.python.org/en/latest/tutorials/installing-packages/
+
+Install package with (system) python:
+	pip install -e PATH
+where:
+	-e		editable/development mode
+
+
+Install in virtualenv <(If we are *meant* to do this, presumedly python-gitignore handles it (isn't a virtualenv >100MB? -> can we place it outside dropbox?))>
+	python3 -m venv tutorial_env
+	source tutorial_env/bin/activate
+
+venv:
+	python3 -m venv <DIR>
+	source <DIR>/bin/activate
+
+virtualenv:
+	python3 -m virtualenv <DIR>
+	source <DIR>/bin/activate
+
+venv vs virtualenv:
+	venv (built into standard library)
+	virtualenv (supports older pythons)
+
+
+pipenv(?)
+	Manage dependencies per-project (they get installed where? / for who?)
+
+
+wheels are the prefered distribution format
+
+
+Install requirements
+	pip install -r requirements.txt
+
+
+

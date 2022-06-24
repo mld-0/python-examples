@@ -1,0 +1,29 @@
+Use pytest (not unittest)
+Do not manipulate PYTHONPATH
+Use virtualenv to install package for testing (installation is not needed for testing, because testing includes creation/installation in virtualenv?)
+flake8 (linting?)
+
+
+
+
+Uses of package/dependency/version tools:
+pyenv: 
+	My system package manager don't have the Python versions I wanted or I want to install multiple Python versions side by side, Python 3.9.0 and Python 3.9.1, Python 3.5.3, etc
+venv:
+	I want to install and run multiple applications with different, conflicting dependencies. (Alternatively) virtualenv supports older versions of python.
+pipenv/poetry: 
+	I'm developing an /application/ and need to manage my dependencies, and manage the dependency resolution of the dependencies of my project.
+setuptools: 
+	I'm developing a /library/ or a /package/ and want to specify the dependencies that my library users need to install
+virtualenvwrapper: 
+	I used virtualenv, but I don't like virtualenv folders being scattered around various project folders. I want a centralised management of the environments and some simple project management. (Alternatively): pyenv-virtualenvwrapper if you also use pyenv.
+pyvenv: 
+	This is deprecated, use venv or virtualenv instead. Not to be confused with pipenv or pyenv.
+
+
+Packages need to be available-correctly/importable in system python when package is pip install-ed with system python-pip.
+Use pytest for tests. 
+<(Tests should be runnable without installing (with system python) (we are advised not to use venv when higher-level tools will suffice) (can tests import package modules as needed (for every (reasonable) way one might run tests)?))>
+
+
+
