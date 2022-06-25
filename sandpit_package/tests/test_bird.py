@@ -1,5 +1,5 @@
 import pytest
-from animals.bird import Bird
+from sandpit_package.animals.bird import Bird
 
 test_name = "wal"
 test_type = Bird

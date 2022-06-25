@@ -1,4 +1,4 @@
-from mathers.operation import Operation
+from sandpit_package.mathers.operation import Operation
 
 class Multiplier(Operation):
 

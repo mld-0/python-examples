@@ -1,5 +1,5 @@
 import pytest
-from mathers.adder import Adder
+from sandpit_package.mathers.adder import Adder
 
 expected_op = "+"
 

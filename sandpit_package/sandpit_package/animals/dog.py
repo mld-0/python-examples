@@ -1,4 +1,4 @@
-from animals.animal import Animal
+from sandpit_package.animals.animal import Animal
 
 class Dog(Animal):
     

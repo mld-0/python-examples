@@ -1,5 +1,5 @@
 import pytest
-from animals.cat import Cat
+from sandpit_package.animals.cat import Cat
 
 test_name = "larry"
 test_type = Cat

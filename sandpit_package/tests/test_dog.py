@@ -1,5 +1,5 @@
 import pytest
-from animals.dog import Dog
+from sandpit_package.animals.dog import Dog
 
 test_name = "patch"
 test_type = Dog

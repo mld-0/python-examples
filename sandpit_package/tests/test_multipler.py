@@ -1,5 +1,5 @@
 import pytest
-from mathers.multiplier import Multiplier
+from sandpit_package.mathers.multiplier import Multiplier
 
 expected_op = "*"
 
