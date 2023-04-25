@@ -37,6 +37,7 @@ def str_splitlines():
 #               Human readable comparison of sequences
 #               (differences marked with ' ' / '+' / '-')
 #               (less compact than 'unified_diff' but easier to read)
+#               (may actually be shorter than 'unified_diff' on account of not including tofile/fromfile)
 #
 
 #       unified_diff(a, b, fromfile='', tofile='', fromfiledate='', tofiledate='', n=3, lineterm='\n')
